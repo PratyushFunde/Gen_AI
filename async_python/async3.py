@@ -10,9 +10,10 @@ async def fetch_url(session,url):
 
 async def main():
     start=time.time()
-    urls=["https://postman-echo.com/get"]*30
+    urls=["https://postman-echo.com/get"]*3
     async with aiohttp.ClientSession() as session:
        tasks= [fetch_url(session,url) for url in urls]
+       print(f"Task is : {tasks}")
        await asyncio.gather(*tasks)
     end=time.time()
     print(f"Total time taken is {end-start:.2f}")
