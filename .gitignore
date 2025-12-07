@@ -1,0 +1,90 @@
+# -----------------------
+# Python
+# -----------------------
+
+# Byte-compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+*.egg
+MANIFEST
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Virtual environments
+venv/
+.venv/
+env/
+.env/
+ENV/
+.python-version
+
+# Pytest / coverage
+.pytest_cache/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre
+.pyre/
+
+# Pytype
+.pytype/
+
+# Pylint
+pylint.log
+
+# Environments / secrets
+.env
+.env.*
+*.env
+
+# VS Code
+.vscode/
+
+# IDE specific
+.idea/
+*.iml
+
+# Logs
+*.log
+
+# SQLite database (if used)
+*.sqlite
+*.sqlite3
+
+# Django
+staticfiles/
+media/
+*.pot
+
+# Flask
+instance/
+.webassets-cache/
+
+# Mac / Windows junk files
+.DS_Store
+Thumbs.db
